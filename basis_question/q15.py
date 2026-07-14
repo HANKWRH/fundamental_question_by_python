@@ -9,6 +9,6 @@ for ch in s:
     if ch.isalpha():
         d[ch] += 1
 
-for k, v in sorted(d.items(), key=lambda x: x[1], reverse=True):
+for k, v in sorted(d.items()):
     if v > 0:
         print(f"{k} : {v}")
